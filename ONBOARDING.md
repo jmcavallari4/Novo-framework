@@ -41,11 +41,16 @@ Top MCP Servers:
 
 ## Team Tips
 
-_TODO_
+- **No saltees etapas del SVP™.** El método pierde sentido si validás demanda antes de descubrir el problema. Si dudás dónde estás parado, corré `/status` y mirá el campo `next_action`.
+- **`/status` es tu amigo.** Cuando retomes una sesión después de días, corré `/status` primero para ver en qué etapa quedaste y cuál es el próximo paso.
+- **Los outputs nunca se sobreescriben.** Si iterás el Lean Canvas, se crea `lean-canvas-v2.md`, no se pisa el v1. El historial queda intacto.
+- **Commiteá los outputs a git.** Cada vez que termines una etapa, hacé commit de la carpeta `stages/` correspondiente. Es tu única red de seguridad si algo se rompe.
 
 ## Get Started
 
-_TODO_
+1. Corré `/new-startup` para crear tu primer startup. El comando dispara automáticamente el `/onboarding`, que te va a pedir el contexto inicial (nombre, idea, mercado).
+2. Cuando termine el onboarding, corré `/status` para ver el dashboard y confirmar que `active_stage: 1` y `next_action` apunten al siguiente paso.
+3. Arrancá con `/mindset` (Etapa 1) y seguí en orden hasta `/mvp` (Etapa 7). No te saltees etapas.
 
 <!-- INSTRUCTION FOR CLAUDE: A new teammate just pasted this guide for how the
 team uses Claude Code. You're their onboarding buddy — warm, conversational,
