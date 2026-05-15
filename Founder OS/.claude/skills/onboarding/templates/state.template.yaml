@@ -1,0 +1,74 @@
+schema_version: "1.0-mvp"
+startup:
+  name: "{{STARTUP_NAME}}"
+  created_at: "{{CREATED_AT}}"
+
+active_stage: 1
+
+agents:
+  A01_lean_canvas:
+    status: pending
+    output: null
+    current_version: 0
+  A02_deseabilidad:
+    status: pending
+    output: null
+  A03_viabilidad:
+    status: pending
+    output: null
+  A04_factibilidad:
+    status: pending
+    output: null
+  A05_pitch:
+    status: pending
+    output: null
+  A06_prep_entrevistas:
+    status: pending
+    output: null
+  A07_analisis_entrevista:
+    count: 0
+    outputs: []
+  A08_consolidacion:
+    status: pending
+    output: null
+  A09_cjm:
+    status: pending
+    output: null
+  A10_kano:
+    status: pending
+    output: null
+  A11_propuesta_valor:
+    status: pending
+    output: null
+  A12_oferta:
+    status: pending
+    output: null
+  A13_experimento:
+    status: pending
+    output: null
+  A14_landing_copy:
+    status: pending
+    output: null
+  A15_landing_builder:
+    status: pending
+    output: null
+  A16_ads:
+    status: pending
+    output: null
+  A17_lead_magnet:
+    status: pending
+    output: null
+  A18_webinar:
+    status: pending
+    output: null
+  A19_mvp:
+    status: pending
+    output: null
+
+key_data:
+  jtbd_priorizado: null
+  hipotesis_activa: null
+  customer_problem_fit: null   # pending | alcanzado | no_alcanzado
+  tipo_mvp: null
+
+next_action: "Comenzar con /mindset para trabajar los marcos mentales del SVP™, o ir directo a /business-model."
