@@ -3,7 +3,7 @@ startup:
   name: "Se Juega"
   created_at: "2026-05-15T22:00:00Z"
 
-active_stage: 1
+active_stage: 2
 
 agents:
   A01_lean_canvas:
@@ -71,4 +71,4 @@ key_data:
   customer_problem_fit: null   # pending | alcanzado | no_alcanzado
   tipo_mvp: null
 
-next_action: "Comenzar con /mindset para trabajar los marcos mentales del SVP™, o ir directo a /business-model."
+next_action: "Mindset completo. Siguiente paso: /business-model para construir el Lean Canvas (A01)."
