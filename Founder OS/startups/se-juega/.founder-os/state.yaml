@@ -7,9 +7,9 @@ active_stage: 2
 
 agents:
   A01_lean_canvas:
-    status: pending
-    output: null
-    current_version: 0
+    status: completed
+    output: "startups/se-juega/stages/02-business-model/lean-canvas-v1.md"
+    current_version: 1
   A02_deseabilidad:
     status: pending
     output: null
@@ -71,4 +71,4 @@ key_data:
   customer_problem_fit: null   # pending | alcanzado | no_alcanzado
   tipo_mvp: null
 
-next_action: "Mindset completo. Siguiente paso: /business-model para construir el Lean Canvas (A01)."
+next_action: "Lean Canvas completo. Siguiente paso: elegir una prueba en /business-model (Deseabilidad, Viabilidad o Factibilidad)."
