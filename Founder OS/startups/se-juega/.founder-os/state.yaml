@@ -3,7 +3,7 @@ startup:
   name: "Se Juega"
   created_at: "2026-05-15T22:00:00Z"
 
-active_stage: 2
+active_stage: 3
 
 agents:
   A01_lean_canvas:
@@ -20,8 +20,8 @@ agents:
     status: completed
     output: "startups/se-juega/stages/02-business-model/prueba-factibilidad-v1.md"
   A05_pitch:
-    status: pending
-    output: null
+    status: completed
+    output: "startups/se-juega/stages/02-business-model/pitches-v1.md"
   A06_prep_entrevistas:
     status: pending
     output: null
@@ -71,4 +71,4 @@ key_data:
   customer_problem_fit: null   # pending | alcanzado | no_alcanzado
   tipo_mvp: null
 
-next_action: "Factibilidad completa. Con las 3 pruebas listas, podés generar los pitches en /business-model (A05) o continuar con /discovery."
+next_action: "Modelo de Negocios completo (A01–A05). Siguiente etapa: /discovery para entrevistas de descubrimiento."
