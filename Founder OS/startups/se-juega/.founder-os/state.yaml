@@ -32,8 +32,8 @@ agents:
     status: completed
     output: "startups/se-juega/stages/03-discovery/consolidado.md"
   A09_cjm:
-    status: pending
-    output: null
+    status: completed
+    output: "startups/se-juega/stages/04-solution/customer-journey-map.md"
   A10_kano:
     status: pending
     output: null
@@ -72,4 +72,4 @@ key_data:
   tipo_mvp: null
 
 active_stage: 4
-next_action: "Customer/Problem Fit alcanzado. Siguiente etapa: /solution para diseñar la solución mínima (A09 CJM, A10 Kano, A11 Propuesta de Valor)."
+next_action: "CJM completo. Continuar con /solution para Priorización Kano (A10)."
