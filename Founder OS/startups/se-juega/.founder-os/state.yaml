@@ -29,8 +29,8 @@ agents:
     count: 0
     outputs: []
   A08_consolidacion:
-    status: pending
-    output: null
+    status: completed
+    output: "startups/se-juega/stages/03-discovery/consolidado.md"
   A09_cjm:
     status: pending
     output: null
@@ -66,9 +66,10 @@ agents:
     output: null
 
 key_data:
-  jtbd_priorizado: null
+  jtbd_priorizado: "Cuando quiero organizar un partido de fútbol amateur, quiero asegurarme de que se juegue contra un rival de mi nivel y sin violencia, para no perder el partido de la semana ni terminar arrepintiéndome de haber ido."
   hipotesis_activa: null
-  customer_problem_fit: null   # pending | alcanzado | no_alcanzado
+  customer_problem_fit: alcanzado
   tipo_mvp: null
 
-next_action: "Modelo de Negocios completo (A01–A05). Siguiente etapa: /discovery para entrevistas de descubrimiento."
+active_stage: 4
+next_action: "Customer/Problem Fit alcanzado. Siguiente etapa: /solution para diseñar la solución mínima (A09 CJM, A10 Kano, A11 Propuesta de Valor)."
