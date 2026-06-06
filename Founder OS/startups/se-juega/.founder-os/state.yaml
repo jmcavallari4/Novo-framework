@@ -44,8 +44,8 @@ agents:
     status: completed
     output: "startups/se-juega/stages/05-offer/oferta-irresistible.md"
   A13_experimento:
-    status: pending
-    output: null
+    status: completed
+    output: "startups/se-juega/stages/06-demand/experimento-validacion.md"
   A14_landing_copy:
     status: pending
     output: null
@@ -67,9 +67,9 @@ agents:
 
 key_data:
   jtbd_priorizado: "Cuando quiero organizar un partido de fútbol amateur, quiero asegurarme de que se juegue contra un rival de mi nivel y sin violencia, para no perder el partido de la semana ni terminar arrepintiéndome de haber ido."
-  hipotesis_activa: null
+  hipotesis_activa: "En 4 semanas, equipos de fútbol 5 amateur en CABA se registrarán en Se Juega de forma gratuita a través de outreach directo a la waitlist existente y Meta Ads en Instagram. Éxito si ≥ 50 nuevos equipos completan el registro, alcanzando los 100 totales."
   customer_problem_fit: alcanzado
   tipo_mvp: null
 
 active_stage: 6
-next_action: "Etapa 5 completa. Invocar /demand para diseñar el experimento de validación (A13)."
+next_action: "A13 completo. Elegir qué activo de demanda generar: landing (A14/A15), anuncios Meta Ads (A16), lead magnet (A17) o webinar (A18)."
