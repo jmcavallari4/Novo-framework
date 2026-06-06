@@ -41,8 +41,8 @@ agents:
     status: completed
     output: "startups/se-juega/stages/04-solution/propuesta-de-valor.md"
   A12_oferta:
-    status: pending
-    output: null
+    status: completed
+    output: "startups/se-juega/stages/05-offer/oferta-irresistible.md"
   A13_experimento:
     status: pending
     output: null
@@ -71,5 +71,5 @@ key_data:
   customer_problem_fit: alcanzado
   tipo_mvp: null
 
-active_stage: 5
-next_action: "Etapa 4 completa. Invocar /offer para construir la Oferta Irresistible (A12)."
+active_stage: 6
+next_action: "Etapa 5 completa. Invocar /demand para diseñar el experimento de validación (A13)."
