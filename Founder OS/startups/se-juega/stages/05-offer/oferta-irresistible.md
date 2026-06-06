@@ -137,7 +137,7 @@ No hay urgencia operativa definida actualmente. A construir cuando se acerque la
 ### 12. Garantía
 
 **Tipo:** Condicional basada en desempeño
-**Formulación:** "Si en los primeros 60 días registrados no encontrás ningún equipo rival para coordinar un partido a través de Se Juega, te conectamos personalmente con equipos de tu zona."
+**Formulación:** "Si en los primeros 15 días registrados no encontrás ningún equipo rival para coordinar un partido a través de Se Juega, te conectamos personalmente con equipos de tu zona."
 **Viabilidad:** Viable — el founder tiene red directa de 50+ equipos en waitlist y 15 años de contactos en el fútbol amateur porteño.
 
 ---
