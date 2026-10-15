@@ -3,7 +3,6 @@ startup:
   name: "Se Juega"
   created_at: "2026-05-15T22:00:00Z"
 
-active_stage: 3
 
 agents:
   A01_lean_canvas:
@@ -70,6 +69,9 @@ key_data:
   hipotesis_activa: "En 4 semanas, equipos de fútbol 5 amateur en CABA se registrarán en Se Juega de forma gratuita a través de outreach directo a la waitlist existente y Meta Ads en Instagram. Éxito si ≥ 50 nuevos equipos completan el registro, alcanzando los 100 totales."
   customer_problem_fit: alcanzado
   tipo_mvp: null
+  equipos_registrados: "21 al 15/10/2026 (fundadores)"
+  decision_cobro: "Sin cobro. Fundadores (registro hasta 31/10) con premium gratis para siempre. Validación de pago postergada."
+  registro_campana: "startups/se-juega/stages/06-demand/registro-campana-octubre-v1.md"
 
 active_stage: 6
-next_action: "Anuncios generados (A16). Publicar en Meta siguiendo el checklist de portfolio-anuncios.md. Próximo activo a generar: landing (A14/A15), lead magnet (A17) o webinar (A18) — o ir directo a publicar."
+next_action: "Campaña de octubre en ejecución (app activa, 21 equipos fundadores al 15/10). Hasta el 31/10: contactar a la waitlist de 50 equipos, complejos y ligas de la tabla de Notion, y repartir volantes. El 31/10: medir contra el criterio de A13 (≥ 50 nuevos) y decidir AVANZAR / ITERAR / FRENAR. Registro: stages/06-demand/registro-campana-octubre-v1.md"
